@@ -1,0 +1,30 @@
+.filter {
+  margin-left: 210px;
+}
+
+.button__create {
+  border-radius: 12px;
+  background: #ffdc4c !important;
+  display: inline-flex;
+  padding: 8px 24px 9px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-100, #000);
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: 500;
+}
+.input__group,
+.input__link {
+  border-radius: 12px;
+  display: flex;
+  padding: 8px 10px 9px 12px;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-100, #000);
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: 400;
+  width: 1280px;
+}

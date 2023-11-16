@@ -1,0 +1,64 @@
+.main__box {
+  border-radius: 16px;
+  padding: 15px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 1290px;
+  height: 100vh;
+  margin-top: 20px;
+}
+.main__title {
+  padding-left: 35px;
+  color: #000;
+  font-family: "Rubik";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.meeting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1230px;
+  height: 140px;
+  border-radius: 16px;
+  background: #f4f4f7;
+  justify-content: space-between;
+}
+.meeting__images {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  //   justify-content: space-between;
+  align-items: center;
+}
+.dashbord,
+.settings,
+.comments {
+  cursor: pointer;
+  width: 480px;
+  height: 125px;
+  background: #f4f4f7;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inform {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 735px;
+  height: 125px;
+  background: #f4f4f7;
+  border-radius: 16px;
+  cursor: pointer;
+}

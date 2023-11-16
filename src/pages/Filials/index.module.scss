@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 220px;
+}
+.container {
+  height: 100%;
+}
+.button__add {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 14px;
+  background: #ffdd26 !important;
+  width: 200px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.title {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  padding: 15px;
+}
+
+tbody {
+  text-align: center;
+}
+
+.category__link {
+  color: rgb(13, 110, 253) !important;
+  cursor: pointer;
+}
+tr {
+  text-align: center;
+}

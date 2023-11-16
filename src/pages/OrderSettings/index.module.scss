@@ -1,0 +1,284 @@
+.top {
+  padding: 8px 10px 9px 12px;
+  color: #000;
+  font-family: "Rubik";
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  padding: 15px;
+  margin-left: 220px;
+}
+.title {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  padding: 15px;
+}
+.selector {
+  width: 300px !important;
+  padding: 10px 4px 11px 16px;
+  padding-left: 50px;
+  font-size: 16px;
+  background: #eff2f7;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.container {
+  height: 100%;
+}
+
+.title__id {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+.title__status {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.28px;
+  padding: 5px;
+}
+.block {
+  padding: 25px;
+  display: flex;
+  gap: 140px;
+}
+.details__inform {
+  padding: 5px;
+}
+.details__title {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  padding: 10px;
+}
+.client__name {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+}
+.input {
+  display: flex;
+  width: 300px;
+  padding: 10px 4px 11px 16px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #eff2f7;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button__next {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100px;
+
+  button {
+    color: #000;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 14px;
+    background: #ffdd26;
+    width: 240px;
+    height: 50px;
+    flex-shrink: 0;
+  }
+}
+
+// right block
+
+.right__block {
+  gap: 20px;
+  padding-top: 60px;
+}
+
+.prepayment {
+  // margin-top: 55px;
+  width: 700px;
+  p {
+    color: #545556;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.pay__form {
+  width: 700px;
+  height: 50px;
+
+  select {
+    border-radius: 6px;
+    background-color: #eff2f7;
+    font-size: 18px;
+
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  p {
+    color: #545556;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+  }
+}
+
+.branch__form {
+  width: 700px;
+  height: 50px;
+  padding-top: 20px;
+
+  select {
+    border-radius: 6px;
+    background-color: #eff2f7;
+    font-size: 18px;
+
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  p {
+    color: #545556;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 30px;
+  }
+}
+
+.operator__form {
+  width: 700px;
+  height: 50px;
+  padding-top: 40px;
+
+  p {
+    color: #545556;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+  }
+}
+
+.comments {
+  padding-top: 60px;
+
+  p {
+    color: #545556;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: 400;
+  }
+  textarea {
+    width: 700px;
+    height: 150px;
+    background-color: #eff2f7;
+    border-radius: 10px;
+    resize: none;
+  }
+}
+.border__bottom {
+  border-bottom: 1px #575757 solid;
+  margin: 20px;
+}
+
+.bottom__title {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 32px;
+}
+
+.decoration {
+  width: 1006px;
+  height: 42px;
+  border-radius: 8px;
+  background: #eff2f7;
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+}
+
+.decoration__checkbox {
+  display: flex;
+  gap: 45px;
+  color: #000;
+  font-family: "Rubik";
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+.view {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.difficulty,
+.floor,
+.number,
+.type {
+  padding-top: 30px;
+  width: 280px;
+  height: 50px;
+
+  p {
+    color: #545556;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  select {
+    border-radius: 6px;
+    background: #eff2f7;
+    font-size: 20px;
+  }
+}
+
+.number__input {
+  border-radius: 6px;
+  border: 1px solid #737373;
+  background: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25) inset;
+  width: 280px;
+  height: 40px;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.button__receive {
+  background: rgb(37, 37, 240) !important;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+  height: 40px;
+  border-radius: 16px;
+}
+.button__cancel {
+  background-color: rgb(237, 76, 76) !important;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 16px;
+}

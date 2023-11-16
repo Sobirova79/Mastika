@@ -1,0 +1,133 @@
+.title {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  padding: 15px;
+  margin-left: 220px;
+}
+.details__block {
+  padding: 25px;
+}
+.details__inform {
+  padding: 10px;
+}
+.details__title {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  padding: 10px;
+}
+
+.client__name {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input {
+  display: flex;
+  width: 260px !important;
+  padding: 10px 4px 11px 16px;
+
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #eff2f7;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.selector {
+  width: 260px !important;
+  padding: 10px 4px 11px 16px;
+  padding-left: 50px;
+  font-size: 16px;
+  background: #eff2f7;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.bottom {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dde0e4;
+  width: 232px;
+}
+.buttons {
+  display: flex;
+  gap: 5px;
+  width: 260px;
+  height: 45px;
+  border-radius: 10px;
+  background: #eff2f7;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+
+  p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+  }
+}
+.button__pickup,
+.button__delivery {
+  width: 125px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #eff2f7;
+  color: #000;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 2px;
+  margin-top: 2px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.button__pickup:active {
+  background: #fff;
+}
+// .active {
+//   background: #fff;
+// }
+.button__next {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 150px;
+
+  button {
+    color: #000;
+    font-family: "Rubik";
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 14px;
+    background: #ffdd26;
+    width: 240px;
+    height: 50px;
+    flex-shrink: 0;
+    margin: 10px;
+  }
+}
+
+.map {
+  width: 720px;
+  height: 310px;
+}
+
+// .react-tel-input .form-control {
+//   width: 260px !important;
+//   display: flex;
+//   height: 43px;
+//   align-items: center;
+//   gap: 10px;
+//   background: #eff2f7 !important;
+//   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+//   border-radius: 15px;
+//   font-size: 18px;
+// }

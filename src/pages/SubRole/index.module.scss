@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 220px;
+}
+
+.button__back {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 14px;
+  background: blue !important;
+  width: 200px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.title {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  padding: 15px;
+}
+.container {
+  width: 1250px;
+  border-radius: 0%;
+}
+.role {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 1250px;
+  padding: 20px;
+  background: blue;
+}
+
+.t__r {
+  width: 1240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+td {
+  padding: 5px;
+  color: #000;
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: 300;
+}

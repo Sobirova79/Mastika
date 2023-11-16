@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+
+.sidebar {
+  position: fixed;
+  width: 220px;
+  padding: 10px 11px 16px;
+  padding: 20px;
+  height: 100%;
+}
+.item__name {
+  display: flex;
+  width: 162px;
+  padding: 10px 4px 11px 16px;
+  align-items: center;
+  gap: 10px;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: 500;
+}
+.main__image {
+  margin-top: -15px;
+}
+.item__name:hover {
+  background: #fff;
+  border-radius: 15px;
+}

@@ -1,0 +1,58 @@
+.table {
+  width: 1180px;
+}
+.container {
+  height: 100%;
+}
+.spisok {
+  color: var(--text-100, #000);
+  font-family: "Rubik";
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.person__id {
+  cursor: pointer;
+  color: #0066c5;
+  font-family: "Rubik";
+  font-size: 14px;
+  font-weight: 400;
+}
+.person__info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  color: var(--text-100, #000);
+  font-family: "Rubik";
+  font-size: 12px;
+  font-weight: 400;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.person__network,
+.person__name {
+  display: flex;
+  margin-top: 10px;
+  gap: 4px;
+}
+.down__list {
+  text-align: center;
+  padding: 17px;
+
+  img {
+    margin: 0 auto;
+  }
+}
+.input__list {
+  padding-top: 15px;
+}
+th {
+  padding: 20px;
+  border-bottom: 1px solid #eff2f7;
+  text-align: center;
+}
